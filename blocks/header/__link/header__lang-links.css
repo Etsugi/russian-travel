@@ -1,5 +1,7 @@
-@import url(./__lang-link/header__lang-link_ru.css);
-@import url(./__lang-link/header__lang-link_en.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_margin/header__lang-link_margin.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
+
 
 .header__lang-links {
   display: flex;
@@ -9,7 +11,7 @@
   list-style-type: none;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .header__lang-links {
     margin: 30px 16px 0 0;
   }

@@ -4,7 +4,7 @@
   margin: 64px auto 0 auto;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .lead__image {
     max-width: 320px;
     max-height: 200px;
@@ -16,7 +16,7 @@
   .lead__image {
     max-width: 768px;
     max-height: 400px;
-    margin: 56px 0 0 0;
+    margin: 56px auto 0 auto;
   }
 }
 

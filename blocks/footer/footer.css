@@ -1,4 +1,6 @@
+@import url(./__content/footer__content.css);
 @import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
@@ -8,7 +10,7 @@
   padding: 0 0 24px 0;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .footer {
     flex-direction: column;
     margin: 64px auto 0 16px;
