@@ -12,6 +12,7 @@
 
 .place__link:hover {
   opacity: 0.8;
+  transition: opacity 0.3s ease-in-out 0s;
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
