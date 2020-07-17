@@ -1,0 +1,25 @@
+@import url(./_text/intro__list_text.css);
+
+.intro__list {
+  list-style-type: none;
+  margin: 32px auto 0 148px;
+  padding: 0;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .intro__list {
+    margin: 32px 16px 0 16px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .intro__list {
+    margin: 32px 24px 0 24px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__list {
+    margin: 32px auto 0 48px;
+  }
+}

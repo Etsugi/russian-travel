@@ -1,0 +1,28 @@
+.places {
+  display: grid;
+  grid-auto-flow: column, row;
+  grid-gap: 80px;
+  margin: 92px 148px 0 148px;
+  padding: 0;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .places {
+    grid-auto-flow: row;
+    margin: 64px 0 0 0;
+    grid-gap: 48px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .places {
+    margin: 88px 24px 0 24px;
+    grid-gap: 72px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .places {
+    margin: 92px 48px 0 48px;
+  }
+}
