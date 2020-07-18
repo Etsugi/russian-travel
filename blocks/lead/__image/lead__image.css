@@ -1,7 +1,7 @@
 .lead__image {
   max-width: 984px;
   max-height: 615px;
-  margin: 64px auto 0 auto;
+  margin: 64px 148px 0 148px;
 }
 
 @media all and (max-width: 767px) {
@@ -15,8 +15,9 @@
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .lead__image {
     max-width: 768px;
+    width: 100%;
     max-height: 400px;
-    margin: 56px auto 0 auto;
+    margin: 56px 0 0;
   }
 }
 
